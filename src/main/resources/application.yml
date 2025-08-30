@@ -1,0 +1,15 @@
+spring:
+  config:
+    import: optional:file:.env[properties]
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 81010797897-pcnfdtkoe25fijbud02lskp6jcc051go.apps.googleusercontent.com
+            client-secret: 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
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
